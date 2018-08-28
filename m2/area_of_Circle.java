@@ -2,11 +2,17 @@ import java.util.Scanner;
 
 class area_of_circle{
 	public static void main(String[] args){
-		Scanner scan = new Scanner(System.in);
-		double radius = scan.nextDouble();
-		double pi = 3.14;
-		double area_of_circle;
-		area_of_circle = (pi*radius*radius);
-		System.out.println(area_of_circle);
+		double radius;
+	    Scanner scan = new Scanner(System.in);
+		radius = scan.nextDouble();
+		System.out.println(area(radius));
 	}
-}
+	static double pi(){
+		return 3.14;
+	}
+	static double area(double radius){
+		return pi()*radius*radius;
+	}
+
+	}
+	
