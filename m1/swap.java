@@ -7,6 +7,6 @@ public class swap
 	int c = a;
 	a = b;
 	b = c;
-	System.out.print("the nunmers are" +a+b);
+	System.out.println("the nunmers are" +a+b);
     }
 }
