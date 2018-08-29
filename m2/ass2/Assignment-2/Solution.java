@@ -2,8 +2,8 @@ import java.util.Scanner;
 import java.lang.Math.*;
 
 public final class Solution {
-	// object taking
-	private Solution(){}
+    // object taking
+    private Solution() { }
 
 
 	/*
