@@ -7,13 +7,13 @@ final class Solution {
 	*/
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);      
-        int base = s.nextInt();
-        int exponent = s.nextInt();
-        int result=power(base,exponent);
+        long base = s.nextInt();
+        long exponent = s.nextInt();
+        long result=power(base,exponent);
         System.out.println(result);
 	}
 
-	public static int power(final int base, final int exponent) {
+	public static long power(final long base, final long exponent) {
 		if (exponent > 0)
 		{
 			return (base*power(base, exponent - 1));
