@@ -6,16 +6,16 @@ public final class Solution {
     private Solution() { }
 
 
-	/*
-	Do not modify this main function.
-	*/
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int a = scan.nextInt();
-		int b = scan.nextInt();
-		int c = scan.nextInt();
-		roots(a, b, c);
-	}
+    /*
+    Do not modify this main function.
+    */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        roots(a, b, c);
+    }
     public static void roots(final int x, final int y, final int z) {
         double root1;
         double root2;
@@ -27,7 +27,7 @@ public final class Solution {
         System.out.println(root1+" "+root2);
     }
 }
-	/*
-	Need to write the rootsOfQuadraticEquation function and print the output.
+    /*
+    Need to write the rootsOfQuadraticEquation function and print the output.
 	*/
 
