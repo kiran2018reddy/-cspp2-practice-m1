@@ -2,8 +2,7 @@ import java.util.Scanner;
 import java.lang.Math.*;
 
 public final class Solution {
-    // object taking
-    private Solution() { }
+    // object takingprivate Solution() { }
 
 
     /*
@@ -16,15 +15,16 @@ public final class Solution {
         int c = scan.nextInt();
         roots(a, b, c);
     }
+    private Solution() { }
     public static void roots(final int x, final int y, final int z) {
-        double root1;
-        double root2;
+        double rot1;
+        double rot2;
         double quad;
         final int b = 4;
         quad = Math.sqrt((y*y)-(b*x*z));
-        root1 = (-y+quad) / (2*x);
-        root2 = (-y-quad) / (2*x);
-        System.out.println(root1+" "+root2);
+        rot1 = (-y+quad) / (2*x);
+        rot2 = (-y-quad) / (2*x);
+        System.out.println(rot1+" "+rot2);
     }
 }
     /*
