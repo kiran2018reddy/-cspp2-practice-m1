@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/**
+ * { item_description }
+ */
 final class Solution {
     /**
      * Constructs the object.
@@ -9,7 +11,7 @@ final class Solution {
     Do not modify this main function.
     */
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);      
+        Scanner s = new Scanner(System.in);
         long base = s.nextInt();
         long exponent = s.nextInt();
         long result = power(base, exponent);
