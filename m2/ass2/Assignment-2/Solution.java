@@ -32,9 +32,9 @@ public final class Solution {
         double rot2;
         double quad;
         final int b = 4;
-        quad = Math.sqrt((y*y)-(b*x*z));
-        rot1 = (-y + quad) / (2*x);
-        rot2 = (-y - quad) / (2*x);
+        quad = Math.sqrt((y*y)-(b * x * z));
+        rot1 = (-y + quad) / (2 * x);
+        rot2 = (-y - quad) / (2 * x);
         System.out.println(rot1 +" "+ rot2);
     }
 }
