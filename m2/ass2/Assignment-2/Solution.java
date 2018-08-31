@@ -1,27 +1,32 @@
 import java.util.Scanner;
  /**
- * { item_description }
+ * { item_description }.
  */
 import java.lang.Math.*;
  /**
- * { item_description }
+ * { item_description }.
  */
 
 public final class Solution {
-    // object takingprivate Solution() { }
+  /**
+   * Constructs the object.
+   */
+    private Solution() { }
+/**
+ * { function_description }.
+ *
+ * @param      args  The arguments
+ */
     public static void main(String[] args) {
-        /**
-         * { var_description }
-         */
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
         roots(a, b, c);
     }
-    private Solution() { }
+    
      /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      x     { parameter_description }
      * @param      y     { parameter_description }
@@ -38,7 +43,4 @@ public final class Solution {
         System.out.println(rot1 + " " + rot2);
     }
 }
-    /*
-    Need to write the rootsOfQuadraticEquation function and print the output.
-	 */
 
