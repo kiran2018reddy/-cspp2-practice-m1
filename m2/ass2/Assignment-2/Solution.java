@@ -35,7 +35,7 @@ public final class Solution {
         quad = Math.sqrt((y*y)-(b * x * z));
         rot1 = (-y + quad) / (2 * x);
         rot2 = (-y - quad) / (2 * x);
-        System.out.println(rot1 +" "+ rot2);
+        System.out.println(rot1 + " " + rot2);
     }
 }
     /*
