@@ -1,15 +1,15 @@
 import java.util.Scanner;
 /**
  * { item_description }.
- */
+ **/
 final class Solution {
     /**
      * Constructs the object.
-     */
+    **/
     private Solution() { }
-    /*
+    /**
     Do not modify this main function.
-    */
+    **/
     public static void main(final String[] args) {
         Scanner s = new Scanner(System.in);
         long base = s.nextInt();
@@ -24,7 +24,7 @@ final class Solution {
  * @param      exponent  The exponent
  *
  * @return     { description_of_the_return_value }
- */
+ **/
     public static long power(final long base, final long exponent) {
         if (exponent > 0) {
             return (base * power(base, exponent - 1));
