@@ -2,7 +2,6 @@ import java.util.Scanner;
  /**
  * { item_description }.
  */
-import java.lang.Math.*;
  /**
  * { item_description }.
  */
