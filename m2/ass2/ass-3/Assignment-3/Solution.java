@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * { item_description }
+ * { item_description }.
  */
 final class Solution {
     /**
@@ -10,7 +10,7 @@ final class Solution {
     /*
     Do not modify this main function.
     */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner s = new Scanner(System.in);
         long base = s.nextInt();
         long exponent = s.nextInt();
